@@ -1,2 +1,6 @@
-ADD_EXECUTABLE( app.out main.cpp foo.cpp )
+CMAKE_MINIMUM_REQUIRED ( VERSION 3.0 )
+
+PROJECT ( "CMAKE_PRAC" )
+SET ( SOURCE_FILES main.cpp foo.cpp )
+ADD_EXECUTABLE( app.out ${SOURCE_FILES} )
 
